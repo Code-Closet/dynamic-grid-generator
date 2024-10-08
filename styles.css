@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  height: 600px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+  grid-gap: 1rem;
+  width: inherit;
+  height: inherit;
+}
+
+.grid-item {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
